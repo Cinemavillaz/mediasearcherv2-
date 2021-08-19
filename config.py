@@ -8,13 +8,10 @@ from logging.handlers import RotatingFileHandler
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
 
 # Get from my.telegram.org (or @UseTGXBot)
-APP_ID = int(os.environ.get("6324566", ""))
+APP_ID = int(os.environ.get("6620972", ""))
 
 # Get from my.telegram.org (or @UseTGXBot)
-API_HASH = os.environ.get("2ad3253fde0ed15c5a9a22c83cd7531b", "")
-
-# Generate a user session string 
-TG_USER_SESSION = os.environ.get("BQCbuMM6D021lGaJLnDuMHgk0SO0Z-Ooxn2QNt0rMUKNIksxPW_jNrmYHJP36yCsa-CTaI8mqZuAXT8ddp8arysGVkSMN-11nZ9xwXpuAf2-HeSKZjgCkZQmh9O7FED8vj1IH21fDm31mflz9JuZd7bEHcGgs3GQQNT6C0BZ6VocZcw4Nd0Qm6MQKpaySyy7NLYnF3lDsgyoQ6dgJ_Jqcs2eYCIRvaV8e24wv4VWfPF3jCAH102aQ0J70aUJAyRMe02TAGpB-jTWqa2_KuH26sDpLypjFfPr0zxtUAsmktOxxghNJRgimXXoMO1WBqBDlTbH3s6hyWkYD1T-AmPgHMIXbEgfSwA", "")
+API_HASH = os.environ.get("3f6835286b03e000ab6d71b37cc35b92", "")
 
 # ID of Channel from which the bot shoul search files
 MAINCHANNEL_ID = os.environ.get("-1001179851603", "")
